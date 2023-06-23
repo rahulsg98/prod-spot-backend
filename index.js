@@ -50,7 +50,7 @@ app.use((err, req, res, next) => {
     .json({ error: "Something went wrong! Please try again later." });
 });
 
-const hostname = "localhost";
+const hostname = "0.0.0.0";
 const port = 5000;
 
 app.listen(port, hostname, () => {
